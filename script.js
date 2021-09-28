@@ -59,33 +59,38 @@ let userInput=prompt(q1);
 if (userInput == 1) {
     userInput = prompt(q2);
 
-    // 2nd Conditional Statement (nested)
+    // 2nd Conditional Statement Begins (NOTE: this one and the following ones are nested all within the 1st Conditional Statement)
     if(userInput == 1){
         userInput = prompt(q3);
 
-        // 3rd Conditional Statement
+        // 3rd Conditional Statement Begins
         if(userInput == 2){
             userInput = prompt(q4);
 
-            // 4th Conditional Statement
+            // 4th Conditional Statement Begins
             if(userInput == 1){
                 userInput = prompt(q5);
 
                 // 5th Conditional Statement
                 if(userInput == 2){
+                    // NOTE: THE LAST ONE IS AN ALERT!!
                     alert(win);
                 } else {
                     alert(gameOver5);
                 }
+            // 4th Conditional Statement Ends
             } else {
                 alert(gameOver4);
             }
+        // 3rd Conditional Statement Ends
         } else {
             alert(gameOver3);
         }
+    // 2nd Conditional Statement Ends
     } else {
         alert(gameOver2);
     }
+// 1st Conditional Statement Ends
 } else {
     alert(gameOver1);
 }
