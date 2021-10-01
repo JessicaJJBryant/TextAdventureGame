@@ -4,49 +4,50 @@ const enter = "Please enter 1 or 2 for your answer";
 
 const gameOver = "Sorry GAME OVER!";
 
-const start = `Welcome to the Ghostbusters Text Adventure Game. Click 'OK' to start the game.`;
+const start = `Welcome to the Space Dream Text Adventure Game. Click 'OK' to start the game.`;
 
-const q1 = `You are trying to catch a ghost called "Slimer" at the Sedgwick Hotel but have not seen him yet. Should you...
-1. Take the elevator to look on the 12th floor
+const q1 = `Last night, you went to sleep in your own bed. You wake up now floating in a silver room. You notice a porthole window with a planet (maybe Earth) visible way below. You turn your head opposite the planet and see a sliding door. It is open. Do you...
+1. Collect your thoughts and wait to wake up from what must be a dream.
 OR
-2. Wait in the lobby to see if he shows up there
+2. Try to float through the sliding door.
 ${enter}`;
 
-const gameOver1 = `You never see Slimer so you give up on catching ghosts and become a talk show host instead. ${gameOver}`;
+const gameOver1 = `You push against the ceiling and walls of the room and make swimming movements until you manage to get to the door. When you finally float outside into a long corridor, a huge man in a uniform sees you and yells in a strange language.  Many more huge space soldiers run down the corridor (somehow, they are not floating), grab you, and fling you into a small compartment. You hear a horrible whoosh sound as you are sucked out into the void of space. Just before life fades as you look at Earth far below, you think, “I should have waited to wake up.” ${gameOver}`;
 
-const q2 = `When you get off the elevator something startles you! Should you...
-1. Look to see what it is
+const q2 = `You float around the room for what feels like an hour. You see huge soldiers walking down the corridor outside the room, but they are so big (8 feet tall at least) that you do not call to them. Finally, a young boy walks into the room and sees you floating above him. He quickly presses a button, and the door slides shut. Do you...
+1. Continue to wait to wake up from what must be a dream.
 OR
-2. Shoot at it immediately with your proton pack
+2.Introduce yourself to the young boy.
 ${enter}`;
 
-const gameOver2 = `It was the hotel maid and you nearly killed her! You are forced to leave the hotel. ${gameOver}`;
+const gameOver2 = `The boy is startled and frightened when you start talking to him. He screams and presses the button to open the door. He yells something in a language with sounds like no language you've ever heard. Five of the huge soldiers run into the room and grab you. They pull you out into the corridor and fling you into a compartment. You hear a horrible whoosh sound as you are sucked out into the void of space. Just before life fades as you look at Earth far below, you think, “I should have waited to wake up.” ${gameOver}`;
 
-const q3 = `It was just the hotel maid. So you walk around to look for Slimer and You Spot Him! Should you...
-1. Call to let the other Ghostbusters know you found him
+const q3 = `The young boy studies you floating above him. An older girl walks into the room. When she sees you, she quickly slides the door shut. She says something to the boy in a language that sounds like no language you’ve ever heard. The boy giggles. Then the girl uses a device that translates her language into English. “Who are you? How did you get in here?” she asks. Do you…
+1. Continue to wait to wake up from what must be a dream.
 OR
-2. Hide and wait to see where he goes
+2.Tell the girl your name & that you just woke up here. 
 ${enter}`;
 
-const gameOver3 = `Slimer hears you, immediately flies at you, and YOU GET SLIMED! ${gameOver}`;
+const gameOver3 = `The girl seems upset that you don’t answer her. She throws the device down and it breaks. She screams and the door slides open. Those huge space soldiers come running in and grab you. The girl says something to them and they fit you with a collar. You have to watch as Earth is conquered by the children's parents and their giant soldiers. You spend the rest of your life as their pet. ${gameOver}`;
 
-const q4 = `You see that Slimer goes into the ballroom so you quickly tell the other Ghostbusters and you all head in. You see him flying around when you walk in. Should you...
-1. Shoot at him with your proton pack
+const q4 = `The boy and girl seem amazed that you've spoken and they've understood. “Weird," the girl says through the device. "Here, put this on,” she says as she reaches in her pocket and hands you a bracelet. As soon as you put it on, you easily float down by just thinking to do so. “Now,” the girl says, “we must take you to meet mother...or would you rather meet father?” Do you...
+1. Say that you want to meet mother.
 OR
-2. Put two proton packs together to try and create a more powerful shot (A.K.A. Cross The Streams)
+2.Say that you want to meet father.
 ${enter}`;
 
-const gameOver4 = `All life as you know it stops instantaneously and every molecule in your body explodes at the speed of light. ${gameOver}`;
+const gameOver4 = `The girl and boy each take one of your hands and walk you into the inner corridor. You pass many of the huge soldiers, but they ignore you. You believe that the children's father must be the leader of these aliens. The kids take you into a room and over to a huge man (even bigger than the soldiers). The children talk to him in their language, and he becomes very angry. The girl turns to you and says (through her device and her tears), "Father has forbidden us from telling mother that your planet has intelligent beings." Her father reaches out his giant hand, and the girl puts her device in it. You know as he crushes it that all hope is lost. The soldiers fit you with a collar. You have to watch as Earth is conquered by the children's parents and their giant soldiers. You spend the rest of your life as their pet.   
+${gameOver}`;
 
-const q5 = `You wrangled Slimer with your shot and the ghost trap is set underneath him. You noticed there is a bright light coming from the trap and are tempted to look at it. Should you...
-1. Look at the trap
+const q5 = `The girl and boy each take one of your hands and walk you into the inner corridor. You pass many of the huge soldiers, but they ignore you. You believe that the children's parents must be the leader of these aliens. The kids take you into a room and over to a huge woman (even bigger than the soldiers). The children talk to her in their language, and she becomes very angry and then softens. She uses her daughter's device and asks you, "Is a taco a sandwich?" Do you...
+1. Say your opinion on whether a taco is or is not a sandwich.
 OR
-2. Keep your focus on Slimer
+2. Say tacos and sandwiches are delicious, and that's all that matters.
 ${enter}`;
 
-const gameOver5 = `You looked at the trap and the light BLINDED YOU! ${gameOver}`;
+const gameOver5 = `The mother decides she does not like your answer. She tells you that the only right answer is that tacos and sandwiches are delicious. She rages at you for a while in English and then tells you that she was going to convince her husband NOT to use Earth for meat if you gave the right answer, but now she could not reasonably do so. Mother screams for Father and they eat you together (the children are crying as they're sent to their rooms without supper). Your last thought is that you have doomed Earth. ${gameOver}`;
 
-const win = `The ghost trap sucked Slimer in and closed. CONGRATULATIONS! YOU CAUGHT SLIMER!!!`;
+const win = `The mother is pleased with your answer. She tells you that she had heard that the beings on Earth were primitive and would make good meat for her people, but now that she knows that Earthlings are intelligent, she has decided to invade another planet. She teleport you and herself into the International Space Station. She asks to speak to NASA and informs them that because of you, Earth is saved. She then leaves you on the ISS and you go home a hero. What an amazing space dream! YOU WIN!!!`;
 // Alerts the user to start the game
 alert(start);
 
