@@ -47,7 +47,6 @@ ${enter}`;
 const gameOver5 = `You looked at the trap and the light BLINDED YOU! ${gameOver}`;
 
 const win = `The ghost trap sucked Slimer in and closed. CONGRATULATIONS! YOU CAUGHT SLIMER!!!`;
-
 // Alerts the user to start the game
 alert(start);
 
