@@ -48,6 +48,9 @@ ${enter}`;
 const gameOver5 = `The mother decides she does not like your answer. She tells you that the only right answer is that tacos and sandwiches are delicious. She rages at you for a while in English and then tells you that she was going to convince her husband NOT to use Earth for meat if you gave the right answer, but now she could not reasonably do so. Mother screams for Father and they eat you together (the children are crying as they're sent to their rooms without supper). Your last thought is that you have doomed Earth. ${gameOver}`;
 
 const win = `The mother is pleased with your answer. She tells you that she had heard that the beings on Earth were primitive and would make good meat for her people, but now that she knows that Earthlings are intelligent, she has decided to invade another planet. She teleports you and herself into the International Space Station. She asks to speak to NASA and informs them that because of you, Earth is saved. She then leaves you on the ISS and you go home a hero. What an amazing space dream! YOU WIN!!!`;
+setTimeout(() => {
+ 
+
 // Alerts the user to start the game
 alert(start);
 
@@ -94,3 +97,5 @@ if (userInput == 1) {
 } else {
     alert(gameOver1);
 }
+   
+}, 500);

@@ -17,6 +17,10 @@ body {
     background-position: center;
     color: #a3bae6;
 }
+h1 {
+    margin-top: 10%;
+    width: 50%;
+}
 p {
     font-size: 12px;
 }
